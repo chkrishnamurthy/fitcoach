@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/jpeg" href="/src/assets/images/logos/logo.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FitCoach - Personal Training</title>
+    <meta name="description" content="Online personal training and nutrition coaching. Transform your body and life with science-based, personalized programs." />
+    <meta name="theme-color" content="#0b63f6" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="FitCoach" />
+    <meta property="og:title" content="FitCoach - Personal Training" />
+    <meta property="og:description" content="Online personal training and nutrition coaching. Transform your body and life with science-based, personalized programs." />
+    <meta property="og:image" content="/src/assets/images/logos/logo.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="FitCoach - Personal Training" />
+    <meta name="twitter:description" content="Online personal training and nutrition coaching. Transform your body and life with science-based, personalized programs." />
+    <meta name="twitter:image" content="/src/assets/images/logos/logo.jpg" />
+    <script>
+      // Prevent flash of unstyled content - apply theme immediately
+      (function() {
+        const stored = localStorage.getItem('fitness-app-theme');
+        const theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.classList.add(theme);
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
