@@ -2,7 +2,7 @@ import { createWhatsAppURL, DEFAULT_WHATSAPP_NUMBER, WHATSAPP_MESSAGES } from '.
 
 export default function ContactPage() {
   const whatsappURL = createWhatsAppURL(DEFAULT_WHATSAPP_NUMBER, WHATSAPP_MESSAGES.contact);
-  const phoneNumber = '+1 (234) 567-8900'; // Update with actual number
+  const phoneNumber = '+918801940214'; // Update with actual number
   const email = 'coach@fitness.com'; // Update with actual email
 
   const contactMethods = [

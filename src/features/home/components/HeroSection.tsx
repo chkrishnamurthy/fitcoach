@@ -12,7 +12,7 @@ export default function HeroSection() {
         <div className="absolute bottom-20 left-10 w-96 h-96 bg-blue-300 rounded-full blur-3xl"></div>
       </div>
 
-      <div className="container mx-auto px-4 py-20 md:py-28 lg:py-36 relative z-10">
+      <div className="container mx-auto px-4 py-10 md:py-12 lg:py-12 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Trainer Name Badge */}
           <div className="inline-block mb-6 px-6 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 animate-fadeIn">
